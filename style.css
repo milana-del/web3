@@ -127,6 +127,8 @@ h2 {
     font-size: 1.3rem;
 }
 
+.img{
+width: 100%;}
 /* Стилизация таблицы - Mobile */
 .discography-table {
     width: 100%;
