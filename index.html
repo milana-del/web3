@@ -38,7 +38,7 @@
                 <ul class="links-list">
                     <li><a href="http://kubsu.ru" title="Абсолютная ссылка на kubsu.ru">kubsu.ru (абсолютная)</a></li>
                     <li><a href="https://kubsu.ru" title="Абсолютная ссылка на kubsu.ru в HTTPS">kubsu.ru (HTTPS)</a></li>
-                    <li><a href="https://vk.com/chaseatlanticcc"><img src="linkphoto.png" alt="Ссылка-изображение" width="100%"></a></li>
+                    <li><a href="https://vk.com/chaseatlanticcc"><img src="linkphoto.png" alt="Ссылка-изображение" class="img"></a></li>
                     <li><a href="/about" title="Сокращенная ссылка на внутреннюю страницу">О нас</a></li>
                     <li><a href="/" title="Сокращенная ссылка на главную">Главная</a></li>
                     <li><a href="#table" title="Ссылка на фрагмент текущей страницы">К таблице</a></li>
@@ -51,7 +51,7 @@
                     <li><p>Это <a href="https://example.com" title="Контекстная ссылка">контекстная ссылка</a> в тексте абзаца.</p></li>
                     <li><a href="https://en.m.wikipedia.org/wiki/Chase_Atlantic#Career" title="Ссылка на фрагмент стороннего сайта">Фрагмент wikipedia</a></li>
                     <li>
-                        <img src="i.jfif" alt="Карта изображения" usemap="#image-map" width="100%">
+                        <img class="img" src="i.jfif" alt="Карта изображения" usemap="#image-map">
                         <map name="image-map">
                             <area shape="rect" coords="425,0,1000,500" href="https://chaseatlantic.com/" alt="Прямоугольная область" title="Chase Atlantic | Official Merch US">
                             <area shape="circle" coords="200,190,150" href="https://music.yandex.ru/artist/4832983" alt="Круглая область" title="Chase Atlantic — слушать">
@@ -212,7 +212,7 @@
                 return false;
             }
         });
-        
+       
         
         document.getElementById('birthdate').max = new Date().toISOString().split('T')[0];
     </script>
